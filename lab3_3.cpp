@@ -1,10 +1,13 @@
 #include <iostream>
-using namespace std
+using namespace std;
 
-int main()
-{   int x = 1
-    int y = 2
-    while (x,y < 70)
+int main (){  
+    double x=2,sum=0;
+    while(x < 70){
+        sum += 1/x;
+        x=x+1; 
+    }
+    cout << "sum is " << sum;
     
     return 0;
 }
